@@ -44,6 +44,14 @@
     <url>https://github.com/neo4j/neo4j-java-driver</url>
   </scm>
 
+  <distributionManagement>
+    <snapshotRepository>
+      <id>8af0553236be</id>
+      <name>8af0553236be-snapshots</name>
+      <url>http://artifactory.pes.nikecloud.com/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+  </distributionManagement>
+
   <dependencyManagement>
     <dependencies>
       <!-- Test dependencies -->
